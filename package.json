@@ -1,0 +1,24 @@
+{
+  "name": "node-express-starter",
+  "version": "1.0.0",
+  "description": "starter bones for node apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoquagliata/ejemplo_final_senpai.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "nicoquagliata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoquagliata/ejemplo_final_senpai/issues"
+  },
+  "homepage": "https://github.com/nicoquagliata/ejemplo_final_senpai#readme"
+}
