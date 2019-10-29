@@ -21,6 +21,6 @@ app.use(bodyParser.json());
 app.use(cors(corsOptions));
 //app.use(express.static(__dirname + "/public"));
 
-app.use(routes);
+app.use('/api', routes);
 
 module.exports = app;
