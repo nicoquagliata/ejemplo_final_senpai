@@ -19,7 +19,8 @@ let classifyImage = async (req, res) => {
 
     const classifyParams = {
         imagesFile: fs.createReadStream(files.imagen.path),
-        owners: ['me', 'IBM'],
+        //owners: ['me', 'IBM'],
+        owners: ['me'],
         threshold: 0.6,
     };
 
