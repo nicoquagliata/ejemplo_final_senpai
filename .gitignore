@@ -2,3 +2,5 @@ vcap-local.json
 node_modules
 get-started-node
 .vs
+.env
+.vs/slnx.sqlite

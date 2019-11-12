@@ -2,11 +2,11 @@ const DiscoveryV1 = require('ibm-watson/discovery/v1');
 const { IamAuthenticator } = require('ibm-watson/auth');
 
 const discovery = new DiscoveryV1({
-  version: '2019-04-30',
+  version: process.env.WATSON_DISCOVERY_VERSION,
   authenticator: new IamAuthenticator({
-    apikey: 'HFDrx7quoG-rSdGAY_jQLMNSfLd6HbW7svt2SFWu6J0k',
+    apikey: process.env.WATSON_DISCOVERY_APIKEY,
   }),
-  url: 'https://gateway.watsonplatform.net/discovery/api',
+  url: process.env.WATSON_DISCOVERY_URL,
 });
 
 
